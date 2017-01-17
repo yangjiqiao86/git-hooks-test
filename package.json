@@ -1,0 +1,41 @@
+{
+  "name": "git-hooks-test",
+  "version": "1.0.0",
+  "description": "> git-hooks-node test！",
+  "main": "index.js",
+  "dependencies": {
+    "git-hooks-node": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "applypatchmsg": "node ./hooks/applypatch-msg.js",
+    "commitmsg": "node ./hooks/commit-msg.js",
+    "postapplypatch": "node ./hooks/post-applypatch.js",
+    "postcheckout": "node ./hooks/post-checkout.js",
+    "postcommit": "node ./hooks/post-commit.js",
+    "postmerge": "node ./hooks/post-merge.js",
+    "postreceive": "node ./hooks/post-receive.js",
+    "postrewrite": "node ./hooks/post-rewrite.js",
+    "postupdate": "node ./hooks/post-update.js",
+    "preapplypatch": "node ./hooks/pre-applypatch.js",
+    "preautogc": "node ./hooks/pre-auto-gc.js",
+    "precommit": "node ./hooks/pre-commit.js",
+    "prepush": "node ./hooks/pre-push.js",
+    "prerebase": "node ./hooks/pre-rebase.js",
+    "prereceive": "node ./hooks/pre-receive.js",
+    "preparecommitmsg": "node ./hooks/prepare-commit-msg.js",
+    "pushtocheckout": "node ./hooks/push-to-checkout.js",
+    "update": "node ./hooks/update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjiqiao86/git-hooks-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangjiqiao86/git-hooks-test/issues"
+  },
+  "homepage": "https://github.com/yangjiqiao86/git-hooks-test#readme"
+}
