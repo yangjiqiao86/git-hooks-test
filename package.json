@@ -1,12 +1,12 @@
 {
   "name": "git-hooks-test",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "> git-hooks-node test！",
   "main": "index.js",
-  "dependencies": {
-    "git-hooks-node": "^0.0.4"
+  "dependencies": {},
+  "devDependencies": {
+    "git-hooks-node": "0.0.9"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "applypatchmsg": "node ./hooks/applypatch-msg.js",
